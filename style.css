@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	width: 100%;
+	background: #000;
+	display: flex;
+	padding-bottom: 3px;
+}
+
+.header_logo{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 800;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 56px;
+	margin-left: 12%;
+}
+
+nav{
+	margin-top: 56px;
+	margin-left: 29%;
+}
+
+.topnav a{
+	color: #fff;
+	text-align: center;
+	padding: 12px 16px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.topnav a:hover{
+	border-bottom: 3px solid #fcac43;
+}
+
+.topnav .icon{
+	display: none;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+main .main_welcome{
+	background: #000;
+	text-align: center;
+	padding: 200px 0 400px 0;
+}
+
+main .main_welcome p{
+	color: #999999;
+	font-size: 20px;
+}
+
+main .main_welcome h1{
+	color: #999999;
+	font-size: 44px;
+}
+main .main_welcome p span{
+		font-weight: bold;
+}
+
+.mycompany{
+	color: #fcac43;
+}
+
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 22%;
+}
+
+main .main_about{
+	display: flex;
+	padding: 100px 0 100px 0;
+}
+
+.about_right{
+	margin-left: 175px;
+	min-width: 30%;
+}
+
+.about_right h1{
+	display: inline-block;
+	text-transform: uppercase;
+	border-bottom: 1px solid #fcac43;
+	padding-bottom: 20px;
+	font-weight: 100;
+}
+
+.about_right h1 span{
+	font-weight: bold;
+}
+
+.about_right p{
+	width: 40%;
+	margin: 10px 0 50px 0;
+	color: #6c6c6c;
+}
+
+.about_right li{
+	background: url(img/icon_right.png) 0px no-repeat;
+	color: #6c6c6c;
+	padding-left: 25px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.about_right li span{
+	font-weight: normal;
+	font-style: italic;
+}
+
+.mw-100{
+	min-width: 34%;
+}
+
+.our_team{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #000;
+}
+
+.our_team h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 100px;
+	margin-left: 42.7%;
+	width: 15%;
+	font-size: 40px;
+}
+
+.border_line{
+	width: 32%;
+	margin-left: 32%;
+	margin-top: 30px;
+	border-bottom: 3px solid #fcac43;
+}
+
+.team{
+		margin-top: 105px;
+		margin-left: 11%;
+		margin-right: 11%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+}
+
+.employee img{
+		margin-left: 30%;
+		border-radius: 70px;
+}
+
+.employee{
+	color: #fff;
+	width: 23%;
+	margin-bottom: 150px;
+}
+
+.employee h3{
+	margin-top: 5px;
+	text-align: center;
+}
+
+.employee h4{
+  padding-bottom: 30px;
+	text-align: center;
+	font-weight: 200;
+}
+
+.employee p{
+	text-align: center;
+	font-weight: 100;
+	font-size: 16px;
+	width: 90%;
+}
+
+.our_sercices h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	margin-top: 100px;
+	margin-left: 42.7%;
+	width: 15%;
+	font-size: 40px;
+}
+
+.our_sercices p{
+	margin-top: 50px;
+	margin-left: 13%;
+	margin-right: 14%;
+	text-align: center;
+	color: #6c6c6c;
+	font-style: italic;
+	margin-bottom: 105px;
+}
+
+.services{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 11%;
+	margin-right: 11%;
+}
+
+.service{
+	
+}
+
+@media screen and (max-width: 1270px){
+	nav{
+		margin-left: 20%;
+	}
+}
+
+@media screen and (max-width: 1110px){
+	nav{
+		margin-left: 10%;
+	}
+}
+
+@media screen and (max-width: 1010px){
+	.topnav a{
+		display: none;
+	}
+
+	.topnav a.icon{
+		float: right;
+		margin-top: -17px;
+		display: block;
+		color: #fff;
+		font-size: 25px;
+	}
+
+	nav{
+		width: 100%;
+		margin-left: 30px;
+	}
+
+	.topnav.responsive{
+		position: relative;
+		top: 50px;
+		left: -200px;
+	}
+
+	header .topnav.responsive{
+		height: 340px;
+	}
+
+	.topnav.responsive a.icon{
+		position: relative;
+		top: -90%;
+		right: -125%;
+	}
+
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	main .main_welcome{
+		padding: 50px 0 50px 0;
+	}
+
+	main .main_welcome p{
+		font-size: 14px;
+	}
+
+	main .main_welcome h1{
+		font-size: 25px;
+	}
+
+	.mw-100{
+		max-width: 70%;
+	}
+
+	.main_about{
+		flex-direction: column;
+	}
+
+	.about_right{
+		text-align: center;
+		margin-left: 0;
+		max-width: 50%;
+	}
+
+	.about_right p{
+		width: 100%;
+	}
+
+	.about_right li{
+		text-align: left;
+	}
+
+	.about_right h1{
+		margin-top: 10px;
+		font-size: 20px;
+	}
+}
